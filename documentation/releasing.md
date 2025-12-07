@@ -32,6 +32,6 @@
    - **Publish** release
 
 7. Publish extension on marketplace
-   - Go to: https://marketplace.visualstudio.com/manage/publishers/mahdi-hajian
+   - Go to: https://marketplace.visualstudio.com/manage/publishers/mahdihajian
    - Find `GitHub Pull Requests`
    - Select **...** and then **Update** and upload the .vsix you just generated
