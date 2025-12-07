@@ -34,7 +34,7 @@ const readme = fs.readFileSync('./README.md');
 const previewReadme = `
 # Azure Devops Pull Request Nightly Build
 
-This is the nightly build of [Azure Devops Pull Request extension](https://marketplace.visualstudio.com/items?itemName=mahdihajian.vscode-pull-request-azdo) for early feedback and testing.
+This is the nightly build of [Azure Devops Pull Request extension](https://marketplace.visualstudio.com/items?itemName=mahdihajian.vscode-pull-request-azure-devops) for early feedback and testing.
 
 The extension can be installed side-by-side with the current Azure Devops Pull Request extension, use the Extensions Viewlet to disable this version of the extension you do not want to use.
 
@@ -45,7 +45,7 @@ fs.writeFileSync('./README.insiders.md', previewReadme);
 
 const constants = fs.readFileSync('./src/constants.ts').toString();
 const insiderConstants = constants.replace(
-	`export const EXTENSION_ID = 'mahdihajian.vscode-pull-request-azdo';`,
-	`export const EXTENSION_ID = 'mahdihajian.vscode-pull-request-azdo-insiders';`,
+	`export const EXTENSION_ID = 'mahdihajian.vscode-pull-request-azure-devops';`,
+	`export const EXTENSION_ID = 'mahdihajian.vscode-pull-request-azure-devops-insiders';`,
 );
 fs.writeFileSync('./src/constants.insiders.ts', insiderConstants);
