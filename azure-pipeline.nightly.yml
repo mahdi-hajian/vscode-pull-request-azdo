@@ -34,7 +34,7 @@ jobs:
           NAME: vscode-pull-request-azdo-insiders
           DISPLAYNAME: Azure Devops Pull Request Nightly Build
           DESCRIPTION: Nightly Build Azure Devops Pull Request extension
-          PUBLISHER: ankitbko
+          PUBLISHER: mahdi-hajian
 
       - script: |
           mv ./package.json ./package.json.bak

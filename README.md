@@ -1,8 +1,8 @@
 # Review and manage your Azure Devops pull requests directly in VS Code
 
-![Build and Test](https://github.com/ankitbko/vscode-pull-request-azdo/workflows/Build%20and%20Test/badge.svg?branch=master&event=push)
+![Build and Test](https://github.com/mahdi-hajian/vscode-pull-request-azdo/workflows/Build%20and%20Test/badge.svg?branch=master&event=push)
 
-This extension is inspired and based on [Github Pull Request Extension for VS Code](https://github.com/Microsoft/vscode-pull-request-github). The extension only works with _git_ based repository. _TFVC_ is not supported. Below are some the features that extension supports. Read about all the features in [wiki](https://github.com/ankitbko/vscode-pull-request-azdo/wiki).
+This extension is inspired and based on [Github Pull Request Extension for VS Code](https://github.com/Microsoft/vscode-pull-request-github). The extension only works with _git_ based repository. _TFVC_ is not supported. Below are some the features that extension supports. Read about all the features in [wiki](https://github.com/mahdi-hajian/vscode-pull-request-azdo/wiki).
 
 - Authenticating and connecting VS Code to Azure Devops.
 - Listing and browsing PRs from within VS Code.
@@ -13,7 +13,7 @@ This extension is inspired and based on [Github Pull Request Extension for VS Co
 
 You can read more about the basic features in my [blog](https://ankitbko.github.io/blog/2021/01/azdo-pr-vscode-extension/).
 
-> **Note From Author**: I created this extension during last 2 weeks of December 2020 as a fun side project. Having never created a VS Code Extension before this was quite a journey. I am currently planning to get this to somewhat stable state before adding more features to it. Please try this extension and report any bugs by raising issue. Since this is a fork of Github PR Extension I will try to backport important updates from upstream to this extension. If you feel there has been an important bug fix or feature update in upstream that you would like in this extension, please raise an Issue here with link to the PR or Issue in upstream.
+> **Note From Author**: This extension is maintained by Mahdi Hajian. This is a fork of the original extension created by ankitbko. I am planning to get this to somewhat stable state before adding more features to it. Please try this extension and report any bugs by raising issue. Since this is a fork of Github PR Extension I will try to backport important updates from upstream to this extension. If you feel there has been an important bug fix or feature update in upstream that you would like in this extension, please raise an Issue here with link to the PR or Issue in upstream.
 
 > **Disclaimer**: Although I work at Microsoft and this is a fork of Github PR Extension, this extension is not an official release or supported by Microsoft. This is a side project that I will try to maintain in my free time. Any help is always appreciated.
 
@@ -33,7 +33,7 @@ It's easy to get started with Azure Devops Pull Requests for Visual Studio Code.
 
 ## Features
 
-Learn all about different features of the extension in the [wiki](https://github.com/ankitbko/vscode-pull-request-azdo/wiki).
+Learn all about different features of the extension in the [wiki](https://github.com/mahdi-hajian/vscode-pull-request-azdo/wiki).
 
 ## Configuring the extension
 
@@ -63,7 +63,7 @@ Learn all about different features of the extension in the [wiki](https://github
 - _type_: enum
 - _required_: false
 - _default_: mergebase
-- _Description_: The commit to use to get diff against the PR branch's HEAD. Read more about different options in [wiki](https://github.com/ankitbko/vscode-pull-request-azdo/wiki/Diff-Options-HEAD-vs-Merge-Base)
+- _Description_: The commit to use to get diff against the PR branch's HEAD. Read more about different options in [wiki](https://github.com/mahdi-hajian/vscode-pull-request-azdo/wiki/Diff-Options-HEAD-vs-Merge-Base)
 
 #### azdoPullRequests.patToken
 - _type_: string
@@ -81,7 +81,7 @@ Learn all about different features of the extension in the [wiki](https://github
 
 ## Questions? Authentication?
 
-See our [wiki](https://github.com/ankitbko/vscode-pull-request-azdo/wiki) for our FAQ.
+See our [wiki](https://github.com/mahdi-hajian/vscode-pull-request-azdo/wiki) for our FAQ.
 
 ## Contributing
 

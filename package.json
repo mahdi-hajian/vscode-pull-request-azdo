@@ -3,17 +3,18 @@
 	"displayName": "AzDO Pull Requests",
 	"description": "Pull Request Provider for Azure Devops",
 	"icon": "",
+	"author": "mahdihajian",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ankitbko/vscode-pull-request-azdo"
+		"url": "https://github.com/mahdi-hajian/vscode-pull-request-azdo"
 	},
 	"bugs": {
-		"url": "https://github.com/ankitbko/vscode-pull-request-azdo/issues"
+		"url": "https://github.com/mahdi-hajian/vscode-pull-request-azdo/issues"
 	},
 	"enableProposedApi": false,
 	"preview": true,
 	"version": "1.0.2",
-	"publisher": "ankitbko",
+	"publisher": "mahdihajian",
 	"engines": {
 		"vscode": "^1.97.0"
 	},
