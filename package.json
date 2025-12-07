@@ -1,6 +1,6 @@
 {
 	"name": "vscode-pull-request-azure-devops",
-	"displayName": "AzDO Pull Requests",
+	"displayName": "Azure DevOps Pull Request",
 	"description": "Pull Request Provider for Azure Devops",
 	"icon": "",
 	"author": "mahdihajian",
